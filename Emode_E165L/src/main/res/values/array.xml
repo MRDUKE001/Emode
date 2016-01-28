@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string-array name="product_station_names">
+        <item>"GPS coupling test"</item>
+        <item>"BT coupling test"</item>
+        <item>"PAC CHECK"</item>
+        <item>"SMT CHECK"</item>
+        <item>"IMEI"</item>
+        <item>"WLAN coupling test"</item>
+        <item>"Main antenna coupling test"</item>
+        <item>"PAC MMI"</item>
+        <item>"SMT MMI"</item>
+        <item>"calibration"</item>
+        <item>"FT"</item>
+        <item>"Sale count"</item>	
+    </string-array>
+
+    <string-array name="flash_names" translatable="false">
+        <item>"KMQ820013M_B419"</item>
+        <item>"KMR820001M_B609"</item>
+        <item>"H9TQ17ABJTMCUR_KUM"</item>
+        <item>"MT29TZZZ8D5BKFAH_125W_95K"</item>
+        <item>"KMR8X0001M-B608"</item>
+        <item>"KMQ7X000SA_B315"</item>
+        <item>"SD7DP28C-8G"</item>
+        <item>"KMR8X0001M_B608"</item>
+        <item>"KMF5X0005C_B211"</item>
+    </string-array> 
+    
+    <string-array name="flash_cids" translatable="false">
+        <item>"150100513832334d42"</item>
+        <item>"150100523832314d42"</item>
+        <item>"90014a484147326505"</item>
+        <item>"fe014e50314a39354b"</item>
+        <item>"90014a484147346404"</item>
+        <item>"150100513758534142"</item>
+        <item>"45010053454d303847"</item>
+        <item>"150100523858314d42"</item>
+        <item>"150100463558354342"</item>
+    </string-array>  
+      
+    
+    <string-array name="testcases" translatable="false">
+        <!--  item definition: -->
+        <!--  code:type:en_name:cn_name:activity -->
+		
+        <!--  type definition: -->
+        <!--  1 or 0001, phone(整机测试项) -->
+        <!--  2 or 0010, board(主板测试项) -->
+        <!--  4 or 0100, other(其它测试项) -->
+        <!--  8 or 1000, custom(定制测试项) -->  
+		       
+        <item>"*983*25#:3:Battery Info:电池信息:BatteryInfo"</item>
+        <item>"*983*31#:3:LCD Test:显示屏测试:LCDTest"</item>
+        <item>"*983*26#:3:Vibrator Backlight Test:震动与背光测试:VibratorBacklightTest"</item>
+        <item>"*983*86#:3:LED Test:LED灯测试:LedTest"</item>
+        <item>"*983*234#:3:SD and Ring Test:铃音与SD卡测试:SDRingTest"</item>
+        <item>"*983*21#:3:Audio Loop Test:音频回路测试:HeadsetAndAudioLoopTest"</item>
+        <item>"*#*#9463*22#*#*:8:Headset Hook Key Test:耳机Hook键测试:HeadsetTest"</item>
+        <item>"*983*636#:3:Memory Test:内存与内部SD卡测试:MemoryTest"</item>
+        <item>"*983*07*02#:3:Key Test:按键测试:KeyTest"</item>
+        <item>"*#09***#:7:BT Test:蓝牙测试:BTTest"</item>
+        <item>"*983*477#:3:GPS Test:GPS测试:GPSTest"</item>
+        <item>"*#19#:3:Touch Screen Test:触摸屏测试:TouchScreenTest"</item>
+        <item>"*983*36#:3:FM Test:FM测试:FMTest"</item>
+        <item>"*1988#:2:Sensor All Test:传感器测试:SensorAllTest"</item>
+        <item>"*983*9434622#:7:Wi-Fi Test:WLAN测试:WifiTest"</item>
+        <item>"*983*224#:3:Flash Test:闪光灯测试:FlashTest"</item>
+        <item>"*983*679#:3:Front Camera Test:前摄像头测试:FrontCameraTest"</item>
+        <item>"*983*473#:3:Back Camera Test:后摄像头测试:BackCameraTest"</item>
+        <item>"*1986#:1:GSensor Test:重力传感器测试:GSensorTest"</item>
+        <item>"*1987#:1:Compass Test:指南针测试:CompassTest"</item>
+        <item>"*983*728#:1:Gyroscope Sensor Test:陀螺仪传感器测试:GyroscopeSensorTest"</item>
+        <item>"*983*239#:1:Light Proximity Test:接近和光感测试:LightAndProximitySensorTest"</item>
+        <item>"*983*6479#:3:Hall Sensor Test:霍尔传感器测试:HallSensorTest"</item>
+        <item>"*983*1275#:4:Version Info:版本信息:VersionInfo"</item>
+        <item>"*983*92#:4:Phase Check:站位信息:PhaseCheck"</item>
+        <item>"*983*468*3#:4:Hardware Info:硬件信息:HardwareInfo"</item>
+        <item>"*983*3640*01#:8:IMSI:IMSI:IMSI"</item>
+        <item>"*#9999#:8:Hardware Version:硬件版本号:HardwareVersion"</item>
+        <item>"*983*247#:8:Receiver Ring Test:听筒铃声测试:ReceiverRingTest"</item>
+        <item>"*983*821#:8:Keep Screen On:保持亮屏:KeepScreenOn"</item>
+        <item>"*983*822#:8:UAProfile:UAProfile:UAProfile"</item>
+        <item>"*983*547#:8:Proximity Sensor Stress Test:接近传感器压力测试:ProximitySensorStressTest"</item>
+        <item>"*983*647#:8:Mic and Rec Stress Test:话筒听筒压力测试:MicRecStressTest"</item>
+        <item>"*#886#:8:BatteryCheck:电池检测:BatteryCheck"</item>
+        <item>"*983*937#:8:Vibrator Stress Test:马达震动压力测试:VibratorStressTest"</item>
+		<item>"*983*333#:3:Factory TP Test:TP测试:TpFactoryTest"</item>
+		 <!-- lizusheng@wind-mobi.com 20151216 add for IMEI start -->
+		<item>"*983*334#:3:IMEI Write:IMEI 写号:ImeiWrite"</item>
+		 <!-- lizusheng@wind-mobi.com 20151216 add for IMEI end -->
+    </string-array>  
+        
+</resources>

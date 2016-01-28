@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView 
+	    android:id="@+id/title" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize="22sp"
+		android:layout_alignParentTop="true" 
+		android:gravity="center_horizontal"/>
+
+	<TextView 
+	    android:layout_below="@id/title"
+	    android:id="@+id/imei_content"
+		android:layout_marginTop="150px" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"/>
+
+	<Button 
+	    android:id="@+id/Button01"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true" 
+		android:layout_alignParentBottom="true"
+		android:visibility="gone"/>
+
+</RelativeLayout><!-- From: file:/F:/Emode/Emode_E200L/src/main/res/layout/em_imsi.xml -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView 
+	    android:id="@+id/title" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize="22sp"
+		android:layout_alignParentTop="true" 
+		android:gravity="center_horizontal"
+        android:text="@string/title_wifi_test"/>
+	
+	<LinearLayout
+		android:layout_marginTop="20dp" android:layout_marginBottom="100dp" 
+		android:layout_below="@id/title"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<TextView android:id="@+id/wifi_status" android:gravity="center_horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+		<TextView android:id="@+id/wifi_address" android:gravity="center_horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+		<TextView android:id="@+id/wifi_list" 
+		    android:layout_marginTop="20dp" android:gravity="center_horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />		
+
+	</LinearLayout>	
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_manual_lcd_test">true</bool>
+    <bool name="config_touch_button_has_backlight">false</bool>
+    <bool name="config_double_mic_support">false</bool>
+    <bool name="config_three_color_led_support">false</bool>
+    <bool name="config_display_cu_info">false</bool>
+    <bool name="config_display_root_info">false</bool>
+    <bool name="config_magneticfield_sensor_support_gyroscope">true</bool>
+    <bool name="config_has_recent_apps_key">false</bool>
+    <bool name="config_display_msn_info">false</bool>	
+    <bool name="config_gps_bt_wifi_flag_store_in_nv">true</bool>
+    <bool name="config_has_navigation_bar">false</bool>	    
+    <bool name="config_disable_vitual_key">false</bool>	   
+    <integer name="config_sn_length">12</integer>
+    <integer name="config_tp_test_rect_section_width">18</integer>
+    <integer name="config_tp_test_rect_section_height">28</integer>
+    <bool name="config_tp_test_has_slash">false</bool>		
+    <bool name="config_display_zte_sales_count_status">false</bool>	
+    <bool name="config_display_zte_version_info">false</bool>	         
+</resources>

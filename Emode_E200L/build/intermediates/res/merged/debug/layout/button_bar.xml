@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="30dp" >
+
+    <Button
+        android:id="@+id/btn_succ"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_succ"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp" />
+    <Button
+        android:id="@+id/btn_fail"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_fail"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp" />
+
+</RelativeLayout>
+<!-- From: file:/F:/Emode/Emode_E200L/src/main/res/layout/button_bar.xml -->

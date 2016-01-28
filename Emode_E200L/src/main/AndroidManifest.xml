@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.wind.emode" android:sharedUserId="android.uid.system">
+
+	<uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.SHUTDOWN" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.REBOOT" />
+<!-- libing add for asus fota 20151211 -s -->
+	<uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />
+	<uses-permission android:name="android.permission.DELETE_CACHE_FILES" />
+<!-- libing add for asus fota 20151211 -e -->
+        <uses-permission android:name="android.permission.NFC" />
+        <uses-permission android:name="android.permission.CAMERA" />
+        <uses-permission android:name="android.permission.FLASHLIGHT" />
+        <uses-feature android:name="android.hardware.camera" />
+        <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+	<application android:name="EmodeApp" >	    
+		<activity android:name="BaseActivity"
+			android:excludeFromRecents="true" android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name="EmodeSubmenu"
+			android:excludeFromRecents="true" android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+
+		<activity android:name="AutoDetect"
+			android:excludeFromRecents="true" android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+
+		<activity android:name=".testcase.VibratorBacklightTest" android:permission="android.permission.CALL_PRIVILEGED"
+			android:excludeFromRecents="true" android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+		
+		<activity android:name=".testcase.VibratorTest"
+			android:excludeFromRecents="true" android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar">
+		</activity>		
+		
+		<activity android:name=".testcase.BacklightTest"
+			android:excludeFromRecents="true" android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar">
+		</activity>				
+
+		<activity android:name=".testcase.BTTest" android:excludeFromRecents="true"
+			android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+
+		<activity android:name=".testcase.LCDTest"
+			android:excludeFromRecents="true" android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+		</activity>
+
+		<activity android:name=".testcase.VersionInfo" android:excludeFromRecents="true"
+			android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+
+		<activity android:name=".testcase.GPSTest" android:excludeFromRecents="true"
+			android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+
+		<activity android:name=".testcase.TouchScreenTest"
+			android:configChanges="keyboard|keyboardHidden|navigation|orientation"
+			android:excludeFromRecents="true" android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+
+		<activity android:name=".testcase.IMEI" android:excludeFromRecents="true"
+			android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+		
+   <!-- lizusheng@wind-mobi.com 20151216 add for IMEI start -->
+		  <activity
+            android:name=".testcase.ImeiWrite"
+            android:screenOrientation="portrait"
+            android:process="com.android.phone"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+   <!-- lizusheng@wind-mobi.com 20151216 add for IMEI end -->
+   
+		<activity android:name=".testcase.IMSI" android:excludeFromRecents="true"
+			android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+
+		<activity android:name=".testcase.KeyTest" android:excludeFromRecents="true"
+			android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+
+		<activity android:name=".testcase.MemoryTest"
+			android:excludeFromRecents="true" android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+
+		<activity android:name=".testcase.LedTest"
+			android:excludeFromRecents="true" android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+
+		<activity android:name=".testcase.WifiTest" android:excludeFromRecents="true"
+			android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+
+		<receiver android:name="MatchingReceiver">
+			<intent-filter>
+				<action android:name="com.wind.intent.action.EMODE" />
+				<action android:name="com.wind.intent.action.EMODE_MENU" />
+				<action android:name="com.wind.intent.action.EMODE_STOP" />																
+			</intent-filter>
+			<intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.PRE_BOOT_COMPLETED"/>
+            </intent-filter>
+		</receiver>
+
+		<activity android:name=".testcase.Root" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+
+
+		<activity android:name="MainActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+		<activity android:name=".AddChinaApn" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+
+		<activity android:name=".testcase.MSensorTest"
+			android:excludeFromRecents="true" android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+
+		<activity android:name=".testcase.SensorAllTest" android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".testcase.GSensorTest" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+    	<activity android:name=".testcase.FlashTest"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait" />
+
+	<activity android:name=".testcase.ProximitySensorTest"
+            android:screenOrientation="portrait">
+	</activity>
+
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name=".testcase.HeadsetAndAudioLoopTest"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name=".testcase.HeadsetHookKeyTest"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".testcase.CustomVersionInfos" android:excludeFromRecents="true"
+            android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".testcase.SDRingTest"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".testcase.LightAndProximitySensorTest"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".testcase.TetherSettings"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".testcase.SwitchMode"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+    	<activity
+            android:name=".testcase.SalesTrackingTest"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".testcase.HardwareVersion"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".testcase.HardwareInfo"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".testcase.KeepScreenOn"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".testcase.UAProfile"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".testcase.PhaseCheck"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".IndiaSale"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".testcase.GyroscopeSensorTest"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".testcase.HallSensorTest"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".testcase.ReceiverRingTest"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".testcase.ProximitySensorSwitch"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".testcase.ProximitySensorStressTest"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".testcase.BackTouchPanelTest"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".testcase.MicRecStressTest"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".testcase.BatteryCheck"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".testcase.VibratorStressTest"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".MasterClean"
+            android:theme="@android:style/Theme.NoDisplay"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".testcase.VideoTest"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".testcase.FMTest"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+
+		<service android:name="com.mediatek.fmradio.FmRadioService" >
+            <intent-filter>
+                <action android:name="com.mediatek.fmradio.IFmRadioService" />
+            </intent-filter>
+        </service>
+        <activity
+            android:name=".testcase.BatteryTest"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".testcase.FrontCameraTest"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".testcase.BackCameraTest"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>        
+        <activity
+            android:name=".testcase.SimState"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".testcase.SalesCountStatus"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>		
+        <service 
+            android:name="com.wind.emode.EmodeIntentService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.wind.intent.action.EMODE_RESTORE_WIFI" />
+                <action android:name="com.wind.intent.action.EMODE_RESTORE_BT" />	
+                <action android:name="com.wind.intent.action.EMODE_RESTORE_GPS" />	
+                <action android:name="com.wind.intent.action.EMODE_OPEN_WIFI_BT_GPS" />	
+                <action android:name="com.wind.intent.action.EMODE_CLOSE_WIFI_BT_GPS" />
+                <action android:name="com.wind.intent.action.EMODE_CLOSE_WIFI_BT_GPS" />
+                <action android:name="com.wind.intent.action.EMODE_INIT_RESULT_FILE" />
+                <action android:name="com.wind.intent.action.EMODE_UPDATE_RESULT_FILE" />
+            </intent-filter>
+        </service>
+        <service 
+            android:name="com.wind.emode.EmptyForegroundService"
+            android:exported="false">
+        </service>        
+        <provider
+		    android:name="android.support.v4.content.FileProvider"
+		    android:authorities="com.wind.emode.files"
+		    android:exported="false"
+		    android:grantUriPermissions="true">
+		    <meta-data
+		        android:name="android.support.FILE_PROVIDER_PATHS"
+		        android:resource="@xml/file_paths" />
+		</provider>        
+    </application>
+
+    <uses-sdk android:minSdkVersion="20" />
+</manifest>	 

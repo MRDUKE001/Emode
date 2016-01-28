@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingLeft="10dp"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp" 
+        android:text="@string/backpanel_title" 
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/backpanel_tips" 
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/b_op1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/backpanel_op_1" 
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/b_op2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/backpanel_op_2" 
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/b_op3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/backpanel_op_3" 
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/b_op4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/backpanel_op_4" 
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/b_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backpanel_result" 
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout><!-- From: file:/F:/Emode/Emode_E165L/src/main/res/layout/em_backpanel.xml -->

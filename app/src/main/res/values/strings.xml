@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Emode</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="application_name">SMMI TEST</string>
+    <string name="action_test_result">Test Result</string>
+    <string name="action_clear_cache">Clear Cache</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_about">About</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_test_again">Test Again</string>
+    <string name="text_testing">Now testing ...</string>
+
+    <string name="item_test_all_main">Test All</string>
+    <string name="item_test_single_main">Single Test</string>
+    <string name="item_upload_main">Upload</string>
+    <string name="item_help_main">Help</string>
+
+    <string name="text_test_bluetooth">Bluetooth Test</string>
+    <string name="text_test_wifi">WiFi Test</string>
+    <string name="text_test_battery">Battery Test</string>
+    <string name="text_test_ecompass">ECompass Test</string>
+    <string name="text_test_modem">Modem Test</string>
+    <string name="text_test_gsensor">GSonsor Test</string>
+    <string name="text_test_keypad">Keypad Test</string>
+    <string name="text_test_touch">Touch Test</string>
+    <string name="text_test_multitouch">MultiTouch Test</string>
+    <string name="text_test_vibrator">vibrator Test</string>
+    <string name="text_test_receiver">Receiver Test</string>
+    <string name="text_test_speaker">Speaker Test</string>
+    <string name="text_test_broadmic">BroadMic Test</string>
+    <string name="text_test_main_camera">Main Camera Capture Test</string>
+    <string name="text_test_front_camera">Front Camera Capture Test</string>
+    <string name="text_test_camera_flash">CameraFlash Test</string>
+    <string name="text_test_display">Display Test</string>
+    <string name="text_test_headset">Headset Test</string>
+    <string name="text_test_headset_mic">Headset Mic Test</string>
+    <string name="text_test_headset_key">Headset Key Test</string>
+    <string name="text_test_sdcard">SDcard Test</string>
+    <string name="text_test_simcard">SIMcard Test</string>
+
+    <string name="pass_result_bluetooth">The Bluetooth Test is working well</string>
+    <string name="failed_result_bluetooth">The Bluetooth Test is failed</string>
+    <string name="title_test_bt">Bluetooth Test</string>
+    <string name="status_test_bt">Bluetooth Status: </string>
+    <string name="address_test_bt">MAC Address:</string>
+    <string name="devicelist_test_bt">Device List:</string>
+    <string name="status_on_bt">"On"</string>
+    <string name="status_off_bt">"Off"</string>
+    <string name="status_scanning_bt">"Scanning..."</string>
+    <string name="no_bt_device">"Scanning is finished, didn't find the Bluetooth device!"</string>
+    <string name="unknown">"unknown"</string>
+
+    <string name="title_result_test">Test Result</string>
+    <string name="tv_passed_result">"Passed:"</string>
+    <string name="tv_failed_result">"Failed:"</string>
+</resources>

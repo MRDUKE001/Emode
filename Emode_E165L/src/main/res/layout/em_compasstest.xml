@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<TextView android:id="@+id/c_title" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:gravity="center_horizontal"
+                android:text="@string/title_compass_test"></TextView>
+	<TextView android:id="@+id/c_txtGX" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+	<TextView android:id="@+id/c_txtGY" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+	<TextView android:id="@+id/c_txtGZ" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+
+	<LinearLayout android:id="@+id/Compassssensor"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+</LinearLayout>

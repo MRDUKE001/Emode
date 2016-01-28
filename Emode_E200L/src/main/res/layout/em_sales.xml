@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+    <TextView android:id="@+id/show_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:visibility="gone"/>
+    <TextView android:id="@+id/current_phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textSize="25px"/>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30px"
+        android:paddingLeft="10px"
+        android:paddingRight="10px">
+        <TextView android:id="@+id/phone_number_tital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="25px"/>
+        <EditText android:id="@+id/change_number"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+   	       android:phoneNumber="true"
+   	       android:visibility="gone"
+   	       android:layout_weight="2"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30px"
+        android:paddingLeft="10px"
+        android:paddingRight="10px">
+        <TextView android:id="@+id/prefix_text_tital"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="25px"
+               android:visibility="gone"
+               />
+        <EditText android:id="@+id/change_prefix"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:visibility="gone"
+               android:layout_weight="2"/>
+    </LinearLayout>
+    <Button android:id="@+id/change_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/change_button_phone"
+        android:visibility="gone"
+        android:layout_marginTop="30px"
+        />
+    <Button android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/change_button_phone"
+        android:visibility="gone"
+        android:layout_marginTop="30px"
+        />
+</LinearLayout>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/Emode/Emode_E200L/src/main/res/values-zh-rCN/string.xml -->
+    <eat-comment/>
+    <integer-array name="freq_list">
+        <item>8900</item>
+        <item>8930</item>
+        <item>9900</item>
+        <item>10200</item>
+  </integer-array>
+    <string-array name="lcdTypeNames">
+        <item>立德 NT35510</item>
+    </string-array>
+    <string-array name="lcdTypes">
+        <item>nt35510</item>
+    </string-array>
+    <!-- From: file:/F:/Emode/Emode_E200L/src/main/res/values-zh-rCN/array.xml -->
+    <eat-comment/>
+    <string-array name="product_station_names">
+        <item>"耦合GPS测试"</item>
+        <item>"耦合蓝牙测试"</item>
+        <item>"PAC CHECK"</item>
+        <item>"SMT CHECK"</item>
+        <item>"IMEI"</item>
+        <item>"耦合WLAN测试"</item>
+        <item>"耦合主天线"</item>
+        <item>"PAC MMI"</item>
+        <item>"SMT MMI"</item>
+        <item>"校准"</item>
+        <item>"FT"</item>
+	<item>"销量统计"</item>
+    </string-array>
+    <!-- From: file:/F:/Emode/Emode_E200L/src/main/res/values-zh-rCN/string.xml -->
+    <eat-comment/>
+    <string-array name="show_service_send_status_open_or_close">
+     		<item>未发送</item>
+     		<item>已发送</item>
+     	</string-array>
+    <string-array name="show_service_status_open_or_close">
+     		<item>关闭</item>
+     		<item>开启</item>
+     	</string-array>
+    <string-array name="tpTypeNames">
+        <item>墩泰  FT6x06</item>
+    </string-array>
+    <string-array name="tpTypes">
+        <item>ft6x06</item>
+    </string-array>
+    <string name="FMR_FREQ_TIP">"正在播放"</string>
+    <string name="OK">OK</string>
+    <string name="aMHZ">89MHz</string>
+    <string name="acoustic_loopback">Acoustic回路(经过DSP和Modem处理)</string>
+    <string name="afe_loopback">AFE回路(硬件器件直通)</string>
+    <string name="android_version">"Android版本："</string>
+    <string name="app_name">生产测试</string>
+    <string name="bMHZ">89.3MHz</string>
+    <string name="backpanel_op_1">"1，滑动"</string>
+    <string name="backpanel_op_2">"2，单击"</string>
+    <string name="backpanel_op_3">"3，双击"</string>
+    <string name="backpanel_op_4">"4，长按"</string>
+    <string name="backpanel_result">"测试通过"</string>
+    <string name="backpanel_succ_tip">"测试通过！"</string>
+    <string name="backpanel_tips">"在背部触控板上至少完成以下一个操作："</string>
+    <string name="backpanel_title">"背部触控板测试"</string>
+    <string name="baseband_version">"基带版本："</string>
+    <string name="battery_info_awake_battery">"使用电池电量的未休眠时间："</string>
+    <string name="battery_info_awake_plugged">"充电时的唤醒时间："</string>
+    <string name="battery_info_health_cold">"电量低"</string>
+    <string name="battery_info_health_dead">"没电"</string>
+    <string name="battery_info_health_good">"正常"</string>
+    <string name="battery_info_health_label">"电池运行状况："</string>
+    <string name="battery_info_health_over_voltage">"过电压"</string>
+    <string name="battery_info_health_overheat">"过热"</string>
+    <string name="battery_info_health_unknown">"未知"</string>
+    <string name="battery_info_health_unspecified_failure">"未知错误"</string>
+    <string name="battery_info_label">"电池信息"</string>
+    <string name="battery_info_level_label">"电池电量："</string>
+    <string name="battery_info_power_ac">"交流电"</string>
+    <string name="battery_info_power_ac_usb">"交流电 + USB"</string>
+    <string name="battery_info_power_label">"是否已插电："</string>
+    <string name="battery_info_power_unknown">"未知"</string>
+    <string name="battery_info_power_unplugged">"未插电"</string>
+    <string name="battery_info_power_usb">"USB"</string>
+    <string name="battery_info_power_wireless">"无线"</string>
+    <string name="battery_info_scale_label">"电池电量："</string>
+    <string name="battery_info_screen_on">"屏幕开启时间："</string>
+    <string name="battery_info_status_charging">"正在充电"</string>
+    <string name="battery_info_status_charging_ac">"（交流电）"</string>
+    <string name="battery_info_status_charging_usb">"(USB)"</string>
+    <string name="battery_info_status_charging_wireless">"（无线）"</string>
+    <string name="battery_info_status_discharging">"未在充电"</string>
+    <string name="battery_info_status_full">"电量充足"</string>
+    <string name="battery_info_status_label">"电池状态："</string>
+    <string name="battery_info_status_not_charging">"未在充电"</string>
+    <string name="battery_info_status_unknown">"未知"</string>
+    <string name="battery_info_technology_label">"电池技术："</string>
+    <string name="battery_info_temperature_label">"电池温度："</string>
+    <string name="battery_info_temperature_units">"° C"</string>
+    <string name="battery_info_uptime">"启动后的时间："</string>
+    <string name="battery_info_voltage_label">"电池电压："</string>
+    <string name="battery_info_voltage_units">"mV"</string>
+    <string name="bt_mac">"蓝牙物理地址："</string>
+    <string name="bt_status">"蓝牙状态："</string>
+    <string name="btn_auto">"自动"</string>
+    <string name="btn_factory_reset">"恢复出厂设置"</string>
+    <string name="btn_fail">"失败"</string>
+    <string name="btn_manual">"手动"</string>
+    <string name="btn_meid">"写入MEID"</string>
+    <string name="btn_reboot">"重新启动"</string>
+    <string name="btn_result">"查看测试结果"</string>
+    <string name="btn_sim1">"写入卡槽1"</string>
+    <string name="btn_sim2">"写入卡槽2"</string>
+    <string name="btn_succ">"通过"</string>
+    <string name="btn_text_scan">"探测"</string>
+    <string name="btok"> OK </string>
+    <string name="button_text_editor">编辑</string>
+    <string name="button_text_save">保存</string>
+    <string name="cMHZ">99MHz</string>
+    <string name="camera_type">"摄像头信息："</string>
+    <string name="change_button_phone">更换接收号码</string>
+    <string name="change_button_prefix">更换前缀</string>
+    <string name="close">"关闭"</string>
+    <string name="color_id">"颜色 ID："</string>
+    <string name="compass">"地磁传感器"</string>
+    <string name="cu_number">"CU 号："</string>
+    <string name="curret_phonenumber">当前接受号码为：%s</string>
+    <string name="dMHZ">102MHz</string>
+    <string name="def_mic_rec_life_time">"96"</string>
+    <string name="default_station_name">New Channel</string>
+    <string name="dialog_msg_battery_check_exit">当前电量过低，请连接充电器！如果退出当前界面，充电到60%将不会播放提示音乐，确认要退出？</string>
+    <string name="dialog_msg_vibrator_test_exit">是否要退出</string>
+    <string name="dialog_title_battery_check_exit">警告</string>
+    <string name="dialog_title_mic_rec_life_test">"请连接充电器防止电量不足！"</string>
+    <string name="dialog_title_vibrator_test_exit">退出程序?</string>
+    <string name="disable_proximity">"禁用接近传感器"</string>
+    <string name="dtv_type">"DTV信息："</string>
+    <string name="enable_proximity">"启用接近传感器"</string>
+    <string name="external_hardware_version">Version de Hardware:</string>
+    <string name="external_version">"外部版本号："</string>
+    <string name="flash_type">"Flash信息："</string>
+    <string name="flashlight_type">"闪光灯信息："</string>
+    <string name="gps_latitude_longitude">"纬度/经度："</string>
+    <string name="gps_tip">"卫星状态(伪随机噪声码;信噪比;高度;方位角):"</string>
+    <string name="gps_total">"卫星总数："</string>
+    <string name="gsensor">"重力传感器"</string>
+    <string name="gsensor_type">"重力传感器信息："</string>
+    <string name="gyroscope">"陀螺仪传感器"</string>
+    <string name="hardware_version">"硬件版本："</string>
+    <string name="headset_hook_key_down">HOOK键检测：按下，Hook键测试成功</string>
+    <string name="headset_hook_key_up">HOOK键检测：弹起</string>
+    <string name="headset_mic_phone_receiver">耳机麦克到手机听筒测试</string>
+    <string name="headset_mic_phone_receiver_testing">正在进行耳机麦克到手机听筒声音回环测试...</string>
+    <string name="headset_plug_in">耳机检测：插入</string>
+    <string name="headset_plug_out">耳机检测：没有插入</string>
+    <string name="headset_test">耳机麦克和耳机喇叭测试: </string>
+    <string name="hint_change_phone_number">请输入新的接收方号码</string>
+    <string name="hint_change_prefix">请输入新的前缀</string>
+    <string name="imei_default_value">"862820020106645"</string>
+    <string name="imei_value_tip">"输入IMEI/MEID号："</string>
+    <string name="imei_write_tip">"IMEI写入后需要重启才能生效！"</string>
+    <string name="incremental_version">客户定制内部版本号：</string>
+    <string name="internal_sd_avail">"内部SD卡可用空间: "</string>
+    <string name="internal_sd_total">"内部SD卡总大小: "</string>
+    <string name="internal_version">"内部版本号："</string>
+    <string name="keep_screen_on_test">"屏幕长亮测试"</string>
+    <string name="kernel_version">"内核版本："</string>
+    <string name="label_vibrator_test_hw_0_5s">振动0.5秒，停0.5秒</string>
+    <string name="label_vibrator_test_hw_1_5s">振动1.5秒，停0.5秒</string>
+    <string name="label_vibrator_test_hw_1s">振动1秒，停1秒</string>
+    <string name="label_vibrator_test_hw_2s">振动2秒，停2秒</string>
+    <string name="lcd_type">"显示屏信息："</string>
+    <string name="light">"光传感器"</string>
+    <string name="main_mic_headset_speaker">"手机主话筒到耳机喇叭测试"</string>
+    <string name="main_mic_headset_speaker_testing">"正在进行手机主话筒到耳机喇叭声音回环测试..."</string>
+    <string name="main_mic_phone_receiver_testing">"正在进行手机主话筒到手机听筒声音回环测试..."</string>
+    <string name="main_mic_phone_speaker">"手机主话筒到喇叭测试"</string>
+    <string name="main_mic_phone_speaker_testing">"手机主话筒到喇叭测试"</string>
+    <string name="mic_speaker_test">麦克和喇叭测试: </string>
+    <string name="model">"型号："</string>
+    <string name="msensor_type">"地磁传感器信息："</string>
+    <string name="nfc_ce_test">NFC CE Test</string>
+    <string name="nfc_ce_test_tip">Please view pos reader\'s screen!</string>
+    <string name="nfc_tag_test">NFC Tag Test</string>
+    <string name="nfc_tag_test_unknown_type_tag">Unknown tag type</string>
+    <string name="nfc_test_pass">Pass</string>
+    <string name="nfc_test_waiting">Waiting...</string>
+    <string name="no_bt_device">"扫描结束，没有找到蓝牙设备！"</string>
+    <string name="notification_content">正在进行生产测试，点击可停止!</string>
+    <string name="notification_title">正在进行生产测试</string>
+    <string name="open">"打开"</string>
+    <string name="outver">外部版本号：</string>
+    <string name="phone_mic_headset_speaker">手机话筒到耳机喇叭测试</string>
+    <string name="phone_mic_headset_speaker_testing">正在进行手机话筒到耳机喇叭声音回环测试...</string>
+    <string name="plug_headset_tip">请插入耳机！耳机将充当收音机的天线。</string>
+    <string name="proximity">"接近传感器"</string>
+    <string name="proximity_timer_current">"已测周期:%1$d"</string>
+    <string name="proximity_timer_start">"开始"</string>
+    <string name="proximity_timer_stop">"停止"</string>
+    <string name="proximity_timer_support">"设备不支持接近传感器"</string>
+    <string name="proximity_timer_tips">"测试时间较长,请确保设备已连接上充电器"</string>
+    <string name="proximity_timer_title">"接近传感器压力测试"</string>
+    <string name="proximity_timer_total">"测试周期:%1$d"</string>
+    <string name="proximity_timer_value">"接近X:%1$s"</string>
+    <string name="radio_text_mic_rec_life_main_mic">"主麦克"</string>
+    <string name="radio_text_mic_rec_life_ref_mic">"副麦克"</string>
+    <string name="ram_avail">"可用内存: "</string>
+    <string name="ram_total">"内存总大小: "</string>
+    <string name="ref_mic_headset_speaker">"手机副话筒到耳机喇叭测试"</string>
+    <string name="ref_mic_headset_speaker_testing">"正在进行手机副话筒到耳机喇叭声音回环测试..."</string>
+    <string name="ref_mic_phone_receiver_testing">"正在进行手机副话筒到手机听筒声音回环测试..."</string>
+    <string name="release_time">"发布日期"</string>
+    <string name="rovein">please input rove_in value</string>
+    <string name="roveinnow">rove_in value now is :</string>
+    <string name="roveout">please input rove_out value</string>
+    <string name="roveoutnow">rove_out value now is :</string>
+    <string name="rovethreshold">please input rove_threshold value</string>
+    <string name="rovethresholdnow">rove_threshold value now is :</string>
+    <string name="sales_count_status">"销量统计状态: "</string>
+    <string name="sales_count_title">"销量统计"</string>
+    <string name="sales_reset_sucess">重置信息</string>
+    <string name="sales_tital_prefix_text">当前前缀：</string>
+    <string name="sales_tital_receiver_number">当前号码：</string>
+    <string name="sales_tracking">SalesTracking</string>
+    <string name="sdcard_available">"外部SD卡可用空间："</string>
+    <string name="sdcard_total">"外部SD卡总容量："</string>
+    <string name="sdcard_used">"外部SD卡已用空间："</string>
+    <string name="select_mode">"选择测试模式"</string>
+    <string name="show_service_send_status">防伪短信发送状态 ：</string>
+    <string name="show_service_status">防伪短信服务状态 ：</string>
+    <string name="software_version">Version de Software:</string>
+    <string name="start">开始</string>
+    <string name="status_off">"关闭"</string>
+    <string name="status_on">"打开"</string>
+    <string name="status_scan">"正在扫描..."</string>
+    <string name="str_finish">finish</string>
+    <string name="submenu_text_result">"成功: %1$d   失败: %2$d   未测试: %3$d   "</string>
+    <string name="support_mnc_mcc_get_failed">Sorry,the mnc get failed!</string>
+    <string name="support_mnc_mcc_txt">support Phone operator: </string>
+    <string name="system_root_or_not">"系统是否被ROOT："</string>
+    <string name="tag_text">Text</string>
+    <string name="test_fail">"测试失败"</string>
+    <string name="test_pass">"测试通过"</string>
+    <string name="thimble_joined">触点接触良好！</string>
+    <string name="thimble_unjoin">触点接触不良！</string>
+    <string name="tip_battery_check_current">当前电量：</string>
+    <string name="tip_battery_check_full">当前电量%1$s，电量较充足，无须再充电.</string>
+    <string name="tip_battery_check_warning">当前电量%1$s，电量不足，请插入充电器充电！</string>
+    <string name="tip_color_test">"可向左或向右滑动切换颜色"</string>
+    <string name="tip_completed">"已完成："</string>
+    <string name="tip_hall_test">"请使用皮套或将磁铁靠近霍尔传感器位置进行测试。"</string>
+    <string name="tip_insert_headset">"请先插入耳机!"</string>
+    <string name="tip_insert_sdcard">请插入SDCard!</string>
+    <string name="tip_keypad_screen_backlight">"请查看触摸屏和按键背光是否闪烁！"</string>
+    <string name="tip_led_test">"请查看LED灯是否闪烁！"</string>
+    <string name="tip_mic_rec_life_test_time_rang">"测试时长必须大于0小于240"</string>
+    <string name="tip_mic_rec_life_time">"测试时长（小时）："</string>
+    <string name="tip_screen_backlight">"请查看触摸屏背光是否闪烁！"</string>
+    <string name="tip_tp_calibration">"正在进行触摸屏校准，请勿触碰屏幕！"</string>
+    <string name="tip_waiting">Please wait...</string>
+    <string name="title_audioloop_test">"音频回路测试"</string>
+    <string name="title_backlight_test">"背光测试"</string>
+    <string name="title_battery_check">电量确认</string>
+    <string name="title_bluetooth_test">"蓝牙测试"</string>
+    <string name="title_camera_test_back">"后摄像头测试"</string>
+    <string name="title_camera_test_front">"前摄像头测试"</string>
+    <string name="title_compass_test">"地磁传感器测试"</string>
+    <string name="title_device_info">"版本信息"</string>
+    <string name="title_disable_proximity">"接近传感器开关"</string>
+    <string name="title_flashlight_test">"闪光灯测试"</string>
+    <string name="title_fm_test">"收音机测试"</string>
+    <string name="title_gps_test">"GPS测试"</string>
+    <string name="title_gsensor_test">"重力传感器测试"</string>
+    <string name="title_gyroscope_test">"陀螺仪传感器测试"</string>
+    <string name="title_hall_test">"霍尔传感器测试"</string>
+    <string name="title_hardware_type">"硬件信息"</string>
+    <string name="title_hardware_version">"硬件版本"</string>
+    <string name="title_headset_test">"耳机测试"</string>
+    <string name="title_key_test">"按键测试"</string>
+    <string name="title_lcd_test">"显示屏测试"</string>
+    <string name="title_led_test">"LED灯测试"</string>
+    <string name="title_light_test">"光传感器测试"</string>
+    <string name="title_memory_test">"内存与内部SD卡测试"</string>
+    <string name="title_mic_rec_life_test">"手机话筒听筒寿命测试"</string>
+    <string name="title_proximity_test">"接近传感器测试"</string>
+    <string name="title_scanned_tag">New tag collected</string>
+    <string name="title_sdcard_ring">"铃音与SD卡测试"</string>
+    <string name="title_sensor_test">"传感器测试"</string>
+    <string name="title_tp_calibration">"触摸屏校准"</string>
+    <string name="title_vibrator_backlight_test">"震动与背光测试"</string>
+    <string name="title_vibrator_test">"震动测试"</string>
+    <string name="title_wifi_test">"WLAN测试"</string>
+    <string name="toaet_sales_have_can_not_open">防伪短信已经发送，服务不可开启</string>
+    <string name="toaet_sales_have_change">已保存</string>
+    <string name="toaet_sales_have_close">服务已经关闭</string>
+    <string name="toaet_sales_have_open">服务已经开启</string>
+    <string name="toast_sales_reenter">内容不能为空，请重新输入</string>
+    <string name="toast_vibrator_test_begin">振动测试中</string>
+    <string name="toast_vibrator_test_end">振动测试结束！！</string>
+    <string name="touch_doohickey_tip">小窍门：将手机反面并触摸背部触板四角和中间更易完成测试</string>
+    <string name="touch_tip">请在背部触控板上移动使得下方六个点变绿：</string>
+    <string name="tp_calibration_am_fail">"A区互电容%1$d校准失败！\n"</string>
+    <string name="tp_calibration_am_succ">"A区互电容校准通过！\n"</string>
+    <string name="tp_calibration_as_fail">"A区自电容%1$d校准失败！\n"</string>
+    <string name="tp_calibration_as_succ">"A区自电容校准通过！\n"</string>
+    <string name="tp_calibration_button_fail">"按键%1$s校准失败！\n"</string>
+    <string name="tp_calibration_button_succ">"按键校准通过！\n"</string>
+    <string name="tp_calibration_data_error">"校准数据格式错误！\n"</string>
+    <string name="tp_calibration_m">"互电容"</string>
+    <string name="tp_calibration_s">"自电容"</string>
+    <string name="tp_calibration_tip_fail">"校准失败，请点击失败按钮退出触摸屏校准！"</string>
+    <string name="tp_type">"触摸屏信息："</string>
+    <string name="unknown">"未知"</string>
+    <string name="unlock_sim_card_success">UnLock Success!</string>
+    <string name="unlock_sim_network_btn">unlock</string>
+    <string name="unlock_sim_network_password_txt">unlock password: </string>
+    <string name="unlock_sim_network_tip">The remaining %1$d, if the password wrong less than 1 times, your phone will be completely locked!</string>
+    <string name="unlock_sim_network_tip_many_times">You has tried too many times! your phone has been completely locked!</string>
+    <string name="wifi_mac">"WLAN物理地址："</string>
+    <string name="wifi_status">"WLAN状态："</string>
+    <string name="wind_flash_light_open_error">无法连接到相机。请确保已关闭会使用相机或闪光灯的应用程序</string>
+    <string name="wind_sml_check_rlt_error">Unlock Fail</string>
+    <string name="wind_sml_check_rlt_exception">Exception happened</string>
+    <string name="wind_sml_check_rlt_okay">Unlock OK</string>
+    <string name="wind_sml_check_running">Checking</string>
+    <string name="wind_sml_disabled">Network Locked is DISABLED!</string>
+    <string name="wind_sml_locked_btn_txt">Unlock</string>
+    <string name="wind_sml_locked_detail">Network Locked:</string>
+    <string name="wind_sml_locked_num">Network Locked Num:</string>
+    <string name="wind_sml_locked_permanently">your phone LOCKED PERMANENTLY</string>
+    <string name="wind_sml_locked_tips">Left times: </string>
+    <string name="wind_sml_locked_title">Unlock ME</string>
+    <string name="wind_sml_unlocked_tips">your phone UNLOCKED now</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:gravity="center_horizontal" android:orientation="vertical">
+	
+	<TextView android:id="@+id/title" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="22sp"
+		android:gravity="center_horizontal" />
+		
+	<Button android:id="@+id/start" 
+		android:layout_width="120dip" android:layout_height="wrap_content" />
+
+	<Button android:id="@+id/stop" 
+		android:layout_width="120dip" android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+<!-- From: file:/F:/Emode/Emode_E165L/src/main/res/layout/em_permission.xml -->

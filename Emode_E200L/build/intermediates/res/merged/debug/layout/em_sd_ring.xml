@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<TextView 
+	    android:id="@+id/title2" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize="22sp"
+		android:layout_alignParentTop="true" 
+		android:gravity="center_horizontal"
+                android:text="@string/title_sdcard_ring"/>
+	<LinearLayout 
+		android:layout_below="@id/title2"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+		
+		<TextView 
+		    android:id="@+id/sd_t0" 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:gravity="center_horizontal"/>
+
+		<TextView 
+		    android:id="@+id/sd_t1" 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:gravity="center_horizontal"/>
+
+		<TextView 
+		    android:id="@+id/sd_t2" 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:gravity="center_horizontal"/>
+
+		<TextView 
+		    android:id="@+id/sd_t3" 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:gravity="center_horizontal"/>
+
+		<TextView 
+		    android:id="@+id/sd_t4" 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:gravity="center_horizontal"/>
+
+	</LinearLayout>
+		
+	<Button 
+	    android:id="@+id/click"
+	    android:text="@string/str_finish"
+		android:layout_height="wrap_content" 
+		android:layout_centerInParent="true"
+		android:layout_width="wrap_content"
+		android:visibility="gone"/>
+
+
+</RelativeLayout><!-- From: file:/F:/Emode/Emode_E200L/src/main/res/layout/em_sd_ring.xml -->

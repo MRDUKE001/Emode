@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<TextView 
+	    android:id="@+id/title3" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize="22sp"
+		android:layout_alignParentTop="true" 
+		android:gravity="center_horizontal"
+                android:text="@string/title_headset_test"/>
+
+	<TextView 
+	    android:layout_below="@id/title3" 
+	    android:id="@+id/stext_0" 
+	    android:layout_marginTop="150px"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_below="@id/stext_0"
+            android:id="@+id/headsetHook"
+            android:layout_marginTop="50px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"/>
+	<Button 
+	    android:id="@+id/b_2" 
+	    android:layout_height="wrap_content"
+		android:layout_width="wrap_content" 
+		android:layout_alignParentBottom="true"
+		android:layout_centerInParent="true"
+		android:visibility="gone"/>
+
+</RelativeLayout><!-- From: file:/F:/Emode/Emode_E165L/src/main/res/layout/em_headset.xml -->

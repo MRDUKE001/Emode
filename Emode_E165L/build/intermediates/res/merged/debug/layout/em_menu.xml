@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+>
+
+<TextView android:id="@+id/ctitile"
+  android:textSize="25sp"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:gravity="center_horizontal">
+</TextView>
+
+<ListView android:id="@+id/ListView" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+</ListView>
+
+</LinearLayout><!-- From: file:/F:/Emode/Emode_E165L/src/main/res/layout/em_menu.xml -->

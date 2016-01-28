@@ -1,0 +1,712 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:2:1-365:12
+	package
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:3:2-26
+		INJECTED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml
+		INJECTED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml
+	android:sharedUserId
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:3:27-68
+	xmlns:android
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CALL_PRIVILEGED
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:5:2-71
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:5:19-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:6:2-65
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:6:19-62
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:7:2-71
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:7:19-68
+uses-permission#android.permission.VIBRATE
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:8:2-63
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:8:19-60
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:9:2-65
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:9:19-62
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:10:2-78
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:10:19-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:11:2-78
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:11:19-75
+uses-permission#android.permission.SHUTDOWN
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:12:2-64
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:12:19-61
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:13:2-72
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:13:19-69
+uses-permission#android.permission.WRITE_SECURE_SETTINGS
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:14:2-77
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:14:19-74
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:15:2-76
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:15:19-73
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:16:2-76
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:16:19-73
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:17:2-70
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:17:19-67
+uses-permission#android.permission.REBOOT
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:20:2-62
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:20:19-59
+uses-permission#android.permission.ACCESS_CACHE_FILESYSTEM
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:22:2-79
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:22:19-76
+uses-permission#android.permission.DELETE_CACHE_FILES
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:23:2-74
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:23:19-71
+uses-permission#android.permission.NFC
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:25:9-66
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:25:26-63
+uses-permission#android.permission.CAMERA
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:26:9-69
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:26:26-66
+uses-permission#android.permission.FLASHLIGHT
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:27:9-73
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:27:26-70
+uses-feature#android.hardware.camera
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:28:9-64
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:28:23-61
+uses-feature#android.hardware.camera.autofocus
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:29:9-99
+	android:required
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:29:72-96
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:29:23-71
+application
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:30:2-362:19
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:30:15-38
+activity#com.wind.emode.BaseActivity
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:31:3-33:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:32:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:32:4-37
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:31:13-40
+activity#com.wind.emode.EmodeSubmenu
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:35:3-38:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:36:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:36:4-37
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:37:4-51
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:35:13-40
+activity#com.wind.emode.AutoDetect
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:40:3-43:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:41:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:41:4-37
+	android:configChanges
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:42:4-54
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:42:55-113
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:40:13-38
+activity#com.wind.emode.testcase.VibratorBacklightTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:45:3-48:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:46:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:46:4-37
+	android:permission
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:45:60-115
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:47:4-51
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:45:13-59
+activity#com.wind.emode.testcase.VibratorTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:50:3-53:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:51:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:51:4-37
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:52:4-51
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:50:13-50
+activity#com.wind.emode.testcase.BacklightTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:55:3-58:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:56:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:56:4-37
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:57:4-51
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:55:13-51
+activity#com.wind.emode.testcase.BTTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:60:3-62:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:61:4-40
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:60:45-78
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:61:41-88
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:60:13-44
+activity#com.wind.emode.testcase.LCDTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:64:3-67:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:65:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:65:4-37
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:66:4-68
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:64:13-45
+activity#com.wind.emode.testcase.VersionInfo
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:69:3-71:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:70:4-40
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:69:50-83
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:70:41-88
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:69:13-49
+activity#com.wind.emode.testcase.GPSTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:73:3-75:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:74:4-40
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:73:46-79
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:74:41-88
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:73:13-45
+activity#com.wind.emode.testcase.TouchScreenTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:77:3-81:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:79:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:79:4-37
+	android:configChanges
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:78:4-74
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:80:4-62
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:77:13-53
+activity#com.wind.emode.testcase.IMEI
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:83:3-85:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:84:4-40
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:83:43-76
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:84:41-88
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:83:13-42
+activity#com.wind.emode.testcase.ImeiWrite
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:88:5-93:20
+	android:process
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:91:13-48
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:90:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:92:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:89:13-47
+activity#com.wind.emode.testcase.IMSI
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:96:3-98:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:97:4-40
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:96:43-76
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:97:41-88
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:96:13-42
+activity#com.wind.emode.testcase.KeyTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:100:3-102:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:101:4-40
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:100:46-79
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:101:41-88
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:100:13-45
+activity#com.wind.emode.testcase.MemoryTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:104:3-107:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:105:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:105:4-37
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:106:4-51
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:104:13-48
+activity#com.wind.emode.testcase.LedTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:109:3-112:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:110:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:110:4-37
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:111:4-51
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:109:13-45
+activity#com.wind.emode.testcase.WifiTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:114:3-116:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:115:4-40
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:114:47-80
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:115:41-88
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:114:13-46
+receiver#com.wind.emode.MatchingReceiver
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:118:3-130:14
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:118:13-44
+intent-filter#com.wind.intent.action.EMODE+com.wind.intent.action.EMODE_MENU+com.wind.intent.action.EMODE_STOP
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:119:4-123:20
+action#com.wind.intent.action.EMODE
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:120:5-59
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:120:13-56
+action#com.wind.intent.action.EMODE_MENU
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:121:5-64
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:121:13-61
+action#com.wind.intent.action.EMODE_STOP
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:122:5-64
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:122:13-61
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:124:4-126:29
+	android:priority
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:124:19-42
+action#android.intent.action.BOOT_COMPLETED
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:125:17-78
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:125:25-76
+intent-filter#android.intent.action.PRE_BOOT_COMPLETED
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:127:13-129:29
+	android:priority
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:127:28-51
+action#android.intent.action.PRE_BOOT_COMPLETED
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:128:17-82
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:128:25-80
+activity#com.wind.emode.testcase.Root
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:132:3-133:14
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:132:43-90
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:132:13-42
+activity#com.wind.emode.MainActivity
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:136:3-137:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:136:41-77
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:136:78-125
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:136:13-40
+activity#com.wind.emode.AddChinaApn
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:138:3-127
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:138:41-77
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:138:78-125
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:138:13-40
+activity#com.wind.emode.testcase.MSensorTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:140:3-143:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:141:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:141:4-37
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:142:4-51
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:140:13-49
+activity#com.wind.emode.testcase.SensorAllTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:145:3-146:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:145:52-88
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:145:13-51
+activity#com.wind.emode.testcase.GSensorTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:148:3-146
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:148:50-86
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:148:87-134
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:148:13-49
+activity#com.wind.emode.testcase.FlashTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:150:6-152:52
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:152:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:151:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:150:16-50
+activity#com.wind.emode.testcase.ProximitySensorTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:154:2-156:13
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:155:13-49
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:154:12-56
+activity#com.wind.emode.testcase.HeadsetAndAudioLoopTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:158:9-162:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:161:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:159:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:160:13-61
+activity#com.wind.emode.testcase.HeadsetHookKeyTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:163:9-167:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:166:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:164:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:165:13-56
+activity#com.wind.emode.testcase.CustomVersionInfos
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:168:9-170:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:169:13-49
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:168:63-96
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:169:50-97
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:168:19-62
+activity#com.wind.emode.testcase.SDRingTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:171:9-175:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:174:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:173:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:172:13-48
+activity#com.wind.emode.testcase.LightAndProximitySensorTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:177:9-181:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:180:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:179:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:178:13-65
+activity#com.wind.emode.testcase.TetherSettings
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:183:9-187:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:186:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:185:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:184:13-52
+activity#com.wind.emode.testcase.SwitchMode
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:189:9-193:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:192:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:191:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:190:13-48
+activity#com.wind.emode.testcase.SalesTrackingTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:195:6-199:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:198:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:197:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:196:13-55
+activity#com.wind.emode.testcase.HardwareVersion
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:201:9-205:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:204:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:203:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:202:13-53
+activity#com.wind.emode.testcase.HardwareInfo
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:207:9-211:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:210:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:209:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:208:13-50
+activity#com.wind.emode.testcase.KeepScreenOn
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:213:9-217:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:216:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:215:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:214:13-50
+activity#com.wind.emode.testcase.UAProfile
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:219:9-223:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:222:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:221:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:220:13-47
+activity#com.wind.emode.testcase.PhaseCheck
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:225:9-229:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:228:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:227:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:226:13-48
+activity#com.wind.emode.IndiaSale
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:231:9-235:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:234:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:233:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:232:13-38
+activity#com.wind.emode.testcase.GyroscopeSensorTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:237:9-241:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:240:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:239:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:238:13-57
+activity#com.wind.emode.testcase.HallSensorTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:243:9-247:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:246:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:245:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:244:13-52
+activity#com.wind.emode.testcase.ReceiverRingTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:249:9-253:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:252:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:251:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:250:13-54
+activity#com.wind.emode.testcase.ProximitySensorSwitch
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:255:9-259:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:258:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:257:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:256:13-59
+activity#com.wind.emode.testcase.ProximitySensorStressTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:261:9-265:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:263:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:264:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:262:13-63
+activity#com.wind.emode.testcase.BackTouchPanelTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:266:9-270:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:268:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:269:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:267:13-56
+activity#com.wind.emode.testcase.MicRecStressTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:271:9-275:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:273:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:274:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:272:13-54
+activity#com.wind.emode.testcase.BatteryCheck
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:276:9-280:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:278:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:279:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:277:13-50
+activity#com.wind.emode.testcase.VibratorStressTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:281:9-285:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:283:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:284:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:282:13-56
+activity#com.wind.emode.MasterClean
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:286:9-290:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:289:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:288:13-59
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:287:13-40
+activity#com.wind.emode.testcase.VideoTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:291:9-295:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:294:13-50
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:293:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:292:13-47
+activity#com.wind.emode.testcase.FMTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:296:9-303:20
+	android:clearTaskOnLaunch
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:298:13-45
+	android:label
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:300:13-45
+	android:launchMode
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:301:13-44
+	android:configChanges
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:299:13-59
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:302:13-55
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:297:13-44
+service#com.mediatek.fmradio.FmRadioService
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:305:3-309:19
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:305:12-62
+intent-filter#com.mediatek.fmradio.IFmRadioService
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:306:13-308:29
+action#com.mediatek.fmradio.IFmRadioService
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:307:17-79
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:307:25-76
+activity#com.wind.emode.testcase.BatteryTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:310:9-314:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:312:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:313:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:311:13-49
+activity#com.wind.emode.testcase.FrontCameraTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:315:9-319:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:317:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:318:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:316:13-53
+activity#com.wind.emode.testcase.BackCameraTest
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:320:9-324:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:322:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:323:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:321:13-52
+activity#com.wind.emode.testcase.SimState
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:325:9-329:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:327:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:328:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:326:13-46
+activity#com.wind.emode.testcase.SalesCountStatus
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:330:9-334:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:332:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:333:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:331:13-54
+service#com.wind.emode.EmodeIntentService
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:335:9-348:19
+	android:exported
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:337:13-37
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:336:13-61
+intent-filter#com.wind.intent.action.EMODE_CLOSE_WIFI_BT_GPS+com.wind.intent.action.EMODE_CLOSE_WIFI_BT_GPS+com.wind.intent.action.EMODE_INIT_RESULT_FILE+com.wind.intent.action.EMODE_OPEN_WIFI_BT_GPS+com.wind.intent.action.EMODE_RESTORE_BT+com.wind.intent.action.EMODE_RESTORE_GPS+com.wind.intent.action.EMODE_RESTORE_WIFI+com.wind.intent.action.EMODE_UPDATE_RESULT_FILE
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:338:13-347:29
+action#com.wind.intent.action.EMODE_RESTORE_WIFI
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:339:17-84
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:339:25-81
+action#com.wind.intent.action.EMODE_RESTORE_BT
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:340:17-82
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:340:25-79
+action#com.wind.intent.action.EMODE_RESTORE_GPS
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:341:17-83
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:341:25-80
+action#com.wind.intent.action.EMODE_OPEN_WIFI_BT_GPS
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:342:17-88
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:342:25-85
+action#com.wind.intent.action.EMODE_CLOSE_WIFI_BT_GPS
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:343:17-89
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:343:25-86
+action#com.wind.intent.action.EMODE_INIT_RESULT_FILE
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:345:17-88
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:345:25-85
+action#com.wind.intent.action.EMODE_UPDATE_RESULT_FILE
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:346:17-90
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:346:25-87
+service#com.wind.emode.EmptyForegroundService
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:349:9-352:19
+	android:exported
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:351:13-37
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:350:13-65
+provider#android.support.v4.content.FileProvider
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:353:9-361:14
+	android:authorities
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:355:7-49
+	android:grantUriPermissions
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:357:7-41
+	android:exported
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:356:7-31
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:354:7-61
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:358:7-360:48
+	android:resource
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:360:11-45
+	android:name
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:359:11-61
+uses-sdk
+ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:364:5-44
+	android:targetSdkVersion
+		INJECTED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml
+		INJECTED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml:364:15-41
+		INJECTED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml
+		INJECTED from F:\Emode\Emode_E200L\src\main\AndroidManifest.xml

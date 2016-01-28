@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:gravity="center_horizontal">
+
+	<!-- 正中的标题 -->
+	<TextView 
+	    android:id="@+id/m0_title" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_alignParentTop="true"
+		android:textSize="22sp" 
+		android:gravity="center_horizontal"
+                android:text="@string/title_device_info"/>
+
+	<LinearLayout 
+		android:layout_marginTop="10px" 
+		android:layout_below="@id/m0_title"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<!-- 手机型号  Model number  -->
+		<TextView 
+		    android:id="@+id/m0_tt" 
+		    android:gravity="center_horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+
+		<!-- Firmware version  -->
+		<TextView 
+		    android:id="@+id/m0_t" 
+		    android:gravity="center_horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+			
+		<!-- Baseband version  -->
+		<TextView 
+		    android:id="@+id/m0_t1" 
+		    android:gravity="center_horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+
+		<!-- Kernel version  -->
+		<TextView 
+		    android:id="@+id/m0_t2" 
+		    android:gravity="center_horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+
+		<!-- Build number  -->
+		<TextView 
+		    android:id="@+id/m0_t3" 
+		    android:gravity="center_horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+
+		<!--软件内部版本号 Software Version -->
+		<TextView 
+		    android:id="@+id/m0_t4" 
+		    android:gravity="center_horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+
+		<!--CP版本号 CP Software Version -->
+		<TextView 
+		    android:id="@+id/m0_t5" 
+		    android:gravity="center_horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+                <!-- release time -->
+                <TextView
+                    android:id="@+id/m0_t6"
+                    android:gravity="center_horizontal"
+                        android:layout_width="fill_parent" 
+                        android:layout_height="wrap_content"/>
+                <!-- CU Reference -->
+                <TextView
+                    android:id="@+id/m0_t7"
+                    android:gravity="center_horizontal"
+                        android:layout_width="fill_parent" 
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"/>
+                <!-- root flag -->
+                <TextView
+                    android:id="@+id/m0_t8"
+                    android:gravity="center_horizontal"
+                        android:layout_width="fill_parent" 
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"/>						
+	</LinearLayout>
+
+	<Button 
+	    android:id="@+id/m0_b" 
+	    android:layout_height="wrap_content"
+		android:layout_width="wrap_content" 
+		android:layout_alignParentBottom="true"
+		android:layout_centerInParent="true"/>
+
+</RelativeLayout>
+<!-- From: file:/F:/Emode/Emode_E165L/src/main/res/layout/em_devinfor.xml -->

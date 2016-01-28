@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://FMTransmitter.mediatek.com/custom"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@android:color/black">    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+	<TextView 
+	        android:id="@+id/fm_test_title" 
+	        android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize="22sp" 
+		android:textColor="@android:color/white"
+		android:gravity="center_horizontal"
+               android:text="@string/title_fm_test"/>            
+        <TextView
+            android:id="@+id/FMR_Freq_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_marginTop="6dip"
+            android:singleLine="true" />
+    <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+      <Button
+        android:id="@+id/FMR_Freq_sub"
+        android:layout_width="40dip"
+        android:layout_height="40dip"/>
+      <SeekBar
+        android:id="@+id/FMR_Freq_seek"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:max="400"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"/>
+      <Button
+        android:id="@+id/FMR_Freq_add"
+        android:layout_width="40dip"
+        android:layout_height="40dip"/>
+</LinearLayout>
+<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="100dip">
+      <Button
+        android:id="@+id/FMR_Freq_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"/>
+      <Button
+        android:id="@+id/FMR_Freq_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"/>
+      <Button
+        android:id="@+id/FMR_Freq_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"/>
+      <Button
+        android:id="@+id/FMR_Freq_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"/>
+</LinearLayout>
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fengsong add for SML start -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:id="@+id/wind_sml_unlocked_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/unlocked_tips"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/wind_sml_unlocked_tips"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/wind_sml_locked_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/locked_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/wind_sml_locked_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+	<TextView
+		android:id="@+id/locked_tips"
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center_horizontal"
+    	android:text="@string/wind_sml_locked_tips"
+    	android:textAppearance="?android:attr/textAppearanceSmall"
+    	/>
+    		
+    <EditText
+    	android:id="@+id/locked_input"
+    	android:layout_width="240dp"
+    	android:layout_height="wrap_content"
+    	android:gravity="center_horizontal"
+    	/>
+    		
+    <Button
+        android:id="@+id/locked_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wind_sml_locked_btn_txt"
+        android:layout_marginTop="5dp"
+        />
+
+</LinearLayout>
+</FrameLayout>
+<!-- fengsong add for SML end -->

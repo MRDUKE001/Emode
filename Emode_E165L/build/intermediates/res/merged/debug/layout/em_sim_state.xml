@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView 
+	    android:id="@+id/title" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize="22sp"
+		android:layout_alignParentTop="true" 
+		android:gravity="center_horizontal"/>
+
+	<TextView 
+	    android:layout_below="@id/title"
+	    android:id="@+id/sim1"
+		android:layout_marginTop="150px" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"/>
+
+
+        <TextView 
+            android:layout_below="@id/sim1"
+            android:id="@+id/imsi1"
+                android:layout_marginTop="5dp" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"/>
+
+        <TextView 
+            android:layout_below="@id/imsi1"
+            android:id="@+id/sim2"
+                android:layout_marginTop="20dp" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"/>
+
+
+        <TextView 
+            android:layout_below="@id/sim2"
+            android:id="@+id/imsi2"
+                android:layout_marginTop="5dp" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"/>
+
+</RelativeLayout>
+<!-- From: file:/F:/Emode/Emode_E165L/src/main/res/layout/em_sim_state.xml -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Emode.iml" filepath="$PROJECT_DIR$/Emode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Emode_E165L/Emode_E165L.iml" filepath="$PROJECT_DIR$/Emode_E165L/Emode_E165L.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Emode_E200L/Emode_E200L.iml" filepath="$PROJECT_DIR$/Emode_E200L/Emode_E200L.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

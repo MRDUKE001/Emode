@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<TextView 
+	    android:id="@+id/title" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize="22sp"
+		android:gravity="center_horizontal"
+                android:text="@string/title_mic_rec_life_test"/>
+	<LinearLayout
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_marginTop="30dp">
+		<LinearLayout
+	        android:layout_width="fill_parent"
+		    android:layout_height="wrap_content">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/tip_mic_rec_life_time"/>
+			<EditText
+			    android:id="@+id/time" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/def_mic_rec_life_time"
+				android:numeric="integer" />
+		</LinearLayout>
+
+	    <RadioGroup
+	        android:id="@+id/radioGroup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:visibility="gone"
+	        android:orientation="horizontal"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="20dp" >
+	        <RadioButton
+	            android:id="@+id/radioMain"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="true"
+	            android:text="@string/radio_text_mic_rec_life_main_mic" >
+	        </RadioButton>
+	        <RadioButton
+	            android:id="@+id/radioRef"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/radio_text_mic_rec_life_ref_mic" >
+	        </RadioButton>
+	    </RadioGroup>
+		<Button
+		    android:id="@+id/start" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+	        android:layout_marginTop="30dp"/>
+	</LinearLayout>
+</LinearLayout>

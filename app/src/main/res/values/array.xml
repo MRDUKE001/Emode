@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="testcases" translatable="false">
+        <!--  item definition: -->
+        <!--  code:type:en_name:cn_name:activity -->
+
+        <!--  type definition: -->
+        <!--  1 or 0001, phone(整机测试项) -->
+        <!--  2 or 0010, board(主板测试项) -->
+        <!--  4 or 0100, other(其它测试项) -->
+        <!--  8 or 1000, custom(定制测试项) -->
+
+        <item>"*#09***#:7:Bluetooth Test:蓝牙测试:1601:BluetoothTesting"</item>
+        <!--  <item>"*#09***#:7:Bluetooth Test:蓝牙测试:1601:BluetoothTesting"</item>-->
+        <!--  <item>"*983*9434622#:7:WiFi Test:WLAN测试:1602:WifiTest"</item>
+              <item>"*983*25#:3:Battery Test:电池信息:1603:BatteryInfo"</item>-->
+        <item>"*1987#:1:ECompass Test:指南针测试:1604:CompassTest"</item>
+         <!-- <item>"*111#:1:Modem Test:Modem测试:1605:ModemTest"</item>
+              <item>"*1986#:1:GSensor Test:重力传感器测试:1606:GSensorTest"</item>
+              <item>"*983*07*02#:3:Keypad Test:按键测试:1607:KeypadTest"</item>
+              <item>"*#19#:3:Touch Test:单指触摸测试:1608:TouchScreenTest"</item>
+              <item>"*#19#:3:MultiTouch Test:多指触摸测试:1609:TouchScreenTest"</item>
+              <item>"*983*26#:3:Vibrator Test:震动测试:1610:VibratorTest"</item>
+              <item>"*983*247#:8:Receiver Test:Receiver测试:1611:ReceiverTest"</item>
+              <item>"*983*21#:8:Speaker Test:话筒测试:1612:SpeakerTest"</item>
+              <item>"*33333#:8:BoardMic Test:听筒测试:1613:BoardMicTest"</item>
+              <item>"*983*473#:3:Main Camera Capture Test:后摄像头测试:1614:MainCameraTest"</item>
+              <item>"*983*679#:3:Front Camera Capture Test:前摄像头测试:1615:FrontCameraTest"</item>
+              <item>"*983*224#:3:CameraFlash Test:闪光灯测试:1616:CameraFlashTest"</item>
+              <item>"*983*31#:3:Display Test:显示屏测试:1617:DiaplayTest"</item>
+              <item>"*#*#9463*20#*#*:8:Headset Test:耳机测试:1618:HeadsetTest"</item>
+              <item>"*#*#9463*21#*#*:8:Headset Mic Test:耳机Mic测试:1619:HeadsetMicTest"</item>
+              <item>"*#*#9463*22#*#*:8:Headset Key Test:耳机Hook键测试:1620:HeadsetKeyTest"</item>
+              <item>"*983*636#:3:SDcard Test:SD卡测试:1621:SdcardTest"</item>
+              <item>"*983*637#:3:SIMcard Test:SIM卡测试:1622:SIMcardTest"</item>-->
+
+     <!--
+        <item>"*983*86#:3:LED Test:LED灯测试:LedTest"</item>
+        <item>"*983*234#:3:SD and Ring Test:铃音与SD卡测试:SDRingTest"</item>
+        <item>"*983*21#:3:Audio Loop Test:音频回路测试:HeadsetAndAudioLoopTest"</item>
+        <item>"*#*#9463*22#*#*:8:Headset Hook Key Test:耳机Hook键测试:HeadsetTest"</item>
+        <item>"*983*636#:3:Memory Test:内存与内部SD卡测试:MemoryTest"</item>
+        <item>"*983*477#:3:GPS Test:GPS测试:GPSTest"</item>
+        <item>"*983*36#:3:FM Test:FM测试:FMTest"</item>
+        <item>"*1988#:2:Sensor All Test:传感器测试:SensorAllTest"</item>
+        <item>"*983*728#:1:Gyroscope Sensor Test:陀螺仪传感器测试:GyroscopeSensorTest"</item>
+        <item>"*983*239#:1:Light Proximity Test:接近和光感测试:LightAndProximitySensorTest"</item>
+        <item>"*983*6479#:3:Hall Sensor Test:霍尔传感器测试:HallSensorTest"</item>
+        <item>"*983*1275#:4:Version Info:版本信息:VersionInfo"</item>
+        <item>"*983*92#:4:Phase Check:站位信息:PhaseCheck"</item>
+        <item>"*983*468*3#:4:Hardware Info:硬件信息:HardwareInfo"</item>
+        <item>"*983*3640*01#:8:IMSI:IMSI:IMSI"</item>
+        <item>"*#9999#:8:Hardware Version:硬件版本号:HardwareVersion"</item>
+        <item>"*983*247#:8:Receiver Ring Test:听筒铃声测试:ReceiverRingTest"</item>
+        <item>"*983*821#:8:Keep Screen On:保持亮屏:KeepScreenOn"</item>
+        <item>"*983*822#:8:UAProfile:UAProfile:UAProfile"</item>
+        <item>"*983*547#:8:Proximity Sensor Stress Test:接近传感器压力测试:ProximitySensorStressTest"</item>
+        <item>"*983*647#:8:Mic and Rec Stress Test:话筒听筒压力测试:MicRecStressTest"</item>
+        <item>"*#886#:8:BatteryCheck:电池检测:BatteryCheck"</item>
+        <item>"*983*937#:8:Vibrator Stress Test:马达震动压力测试:VibratorStressTest"</item>
+        <item>"*983*333#:3:Factory TP Test:TP测试:TpFactoryTest"</item>
+        <item>"*983*334#:3:IMEI Write:IMEI 写号:ImeiWrite"</item>-->
+    </string-array>
+</resources>

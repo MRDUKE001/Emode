@@ -1,0 +1,694 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:2:1-358:12
+	package
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:3:2-26
+		INJECTED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml
+		INJECTED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml
+	android:sharedUserId
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:3:27-68
+	xmlns:android
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CALL_PRIVILEGED
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:5:2-71
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:5:19-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:6:2-65
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:6:19-62
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:7:2-71
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:7:19-68
+uses-permission#android.permission.VIBRATE
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:8:2-63
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:8:19-60
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:9:2-65
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:9:19-62
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:10:2-78
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:10:19-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:11:2-78
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:11:19-75
+uses-permission#android.permission.SHUTDOWN
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:12:2-64
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:12:19-61
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:13:2-72
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:13:19-69
+uses-permission#android.permission.WRITE_SECURE_SETTINGS
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:14:2-77
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:14:19-74
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:15:2-76
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:15:19-73
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:16:2-76
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:16:19-73
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:17:2-70
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:17:19-67
+uses-permission#android.permission.REBOOT
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:20:2-62
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:20:19-59
+uses-permission#android.permission.NFC
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:21:9-66
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:21:26-63
+uses-permission#android.permission.CAMERA
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:22:9-69
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:22:26-66
+uses-permission#android.permission.FLASHLIGHT
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:23:9-73
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:23:26-70
+uses-feature#android.hardware.camera
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:24:9-64
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:24:23-61
+uses-feature#android.hardware.camera.autofocus
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:25:9-99
+	android:required
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:25:72-96
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:25:23-71
+application
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:26:2-355:19
+	android:allowClearUserData
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:27:6-40
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:26:15-38
+activity#com.wind.emode.EmActivity
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:28:3-30:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:29:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:29:4-37
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:28:13-38
+activity#com.wind.emode.EmodeSubmenu
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:32:3-35:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:33:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:33:4-37
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:34:4-51
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:32:13-40
+activity#com.wind.emode.AutoDetect
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:37:3-40:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:38:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:38:4-37
+	android:configChanges
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:39:4-54
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:39:55-113
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:37:13-38
+activity#com.wind.emode.testcase.VibratorBacklightTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:42:3-45:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:43:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:43:4-37
+	android:permission
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:42:60-115
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:44:4-51
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:42:13-59
+activity#com.wind.emode.testcase.VibratorTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:47:3-50:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:48:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:48:4-37
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:49:4-51
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:47:13-50
+activity#com.wind.emode.testcase.BacklightTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:52:3-55:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:53:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:53:4-37
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:54:4-51
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:52:13-51
+activity#com.wind.emode.testcase.BTTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:57:3-59:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:58:4-40
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:57:45-78
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:58:41-88
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:57:13-44
+activity#com.wind.emode.testcase.LCDTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:61:3-64:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:62:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:62:4-37
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:63:4-68
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:61:13-45
+activity#com.wind.emode.testcase.VersionInfo
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:66:3-68:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:67:4-40
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:66:50-83
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:67:41-88
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:66:13-49
+activity#com.wind.emode.testcase.GPSTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:70:3-72:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:71:4-40
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:70:46-79
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:71:41-88
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:70:13-45
+activity#com.wind.emode.testcase.TouchScreenTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:74:3-78:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:76:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:76:4-37
+	android:configChanges
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:75:4-74
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:77:4-62
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:74:13-53
+activity#com.wind.emode.testcase.IMEI
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:80:3-82:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:81:4-40
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:80:43-76
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:81:41-88
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:80:13-42
+activity#com.wind.emode.testcase.ImeiWrite
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:85:5-90:20
+	android:process
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:88:13-48
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:87:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:89:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:86:13-47
+activity#com.wind.emode.testcase.IMSI
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:93:3-95:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:94:4-40
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:93:43-76
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:94:41-88
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:93:13-42
+activity#com.wind.emode.testcase.KeyTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:97:3-99:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:98:4-40
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:97:46-79
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:98:41-88
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:97:13-45
+activity#com.wind.emode.testcase.MemoryTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:101:3-104:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:102:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:102:4-37
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:103:4-51
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:101:13-48
+activity#com.wind.emode.testcase.LedTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:106:3-109:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:107:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:107:4-37
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:108:4-51
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:106:13-45
+activity#com.wind.emode.testcase.WifiTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:111:3-113:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:112:4-40
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:111:47-80
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:112:41-88
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:111:13-46
+receiver#com.wind.emode.MatchingReceiver
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:115:3-127:14
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:115:13-44
+intent-filter#com.wind.intent.action.EMODE+com.wind.intent.action.EMODE_MENU+com.wind.intent.action.EMODE_STOP
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:116:4-120:20
+action#com.wind.intent.action.EMODE
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:117:5-59
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:117:13-56
+action#com.wind.intent.action.EMODE_MENU
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:118:5-64
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:118:13-61
+action#com.wind.intent.action.EMODE_STOP
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:119:5-64
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:119:13-61
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:121:4-123:29
+	android:priority
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:121:19-42
+action#android.intent.action.BOOT_COMPLETED
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:122:17-78
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:122:25-76
+intent-filter#android.intent.action.PRE_BOOT_COMPLETED
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:124:13-126:29
+	android:priority
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:124:28-51
+action#android.intent.action.PRE_BOOT_COMPLETED
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:125:17-82
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:125:25-80
+activity#com.wind.emode.testcase.Root
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:129:3-130:14
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:129:43-90
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:129:13-42
+activity#com.wind.emode.MainActivity
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:133:3-134:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:133:41-77
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:133:78-125
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:133:13-40
+activity#com.wind.emode.AddChinaApn
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:135:3-127
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:135:41-77
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:135:78-125
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:135:13-40
+activity#com.wind.emode.testcase.CompassTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:137:3-140:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:138:38-74
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:138:4-37
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:139:4-51
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:137:13-49
+activity#com.wind.emode.testcase.SensorAllTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:142:3-143:14
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:142:52-88
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:142:13-51
+activity#com.wind.emode.testcase.GSensorTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:145:3-146
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:145:50-86
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:145:87-134
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:145:13-49
+activity#com.wind.emode.testcase.FlashTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:147:6-149:52
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:149:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:148:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:147:16-50
+activity#com.wind.emode.testcase.ProximitySensorTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:151:2-153:13
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:152:13-49
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:151:12-56
+activity#com.wind.emode.testcase.HeadsetAndAudioLoopTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:155:9-159:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:158:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:156:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:157:13-61
+activity#com.wind.emode.testcase.HeadsetTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:160:9-164:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:163:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:161:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:162:13-49
+activity#com.wind.emode.testcase.CustomVersionInfos
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:165:9-167:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:166:13-49
+	android:excludeFromRecents
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:165:63-96
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:166:50-97
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:165:19-62
+activity#com.wind.emode.testcase.SDRingTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:168:9-172:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:171:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:170:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:169:13-48
+activity#com.wind.emode.testcase.LightAndProximitySensorTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:174:9-178:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:177:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:176:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:175:13-65
+activity#com.wind.emode.testcase.TetherSettings
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:180:9-184:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:183:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:182:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:181:13-52
+activity#com.wind.emode.testcase.SwitchMode
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:186:9-190:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:189:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:188:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:187:13-48
+activity#com.wind.emode.testcase.SalesTrackingTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:192:6-196:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:195:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:194:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:193:13-55
+activity#com.wind.emode.testcase.HardwareVersion
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:198:9-202:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:201:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:200:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:199:13-53
+activity#com.wind.emode.testcase.HardwareInfo
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:204:9-208:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:207:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:206:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:205:13-50
+activity#com.wind.emode.testcase.KeepScreenOn
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:210:9-214:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:213:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:212:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:211:13-50
+activity#com.wind.emode.testcase.UAProfile
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:216:9-220:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:219:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:218:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:217:13-47
+activity#com.wind.emode.testcase.PhaseCheck
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:222:9-226:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:225:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:224:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:223:13-48
+activity#com.wind.emode.IndiaSale
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:228:9-232:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:231:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:230:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:229:13-38
+activity#com.wind.emode.testcase.GyroscopeSensorTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:234:9-238:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:237:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:236:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:235:13-57
+activity#com.wind.emode.testcase.HallSensorTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:240:9-244:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:243:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:242:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:241:13-52
+activity#com.wind.emode.testcase.ReceiverRingTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:246:9-250:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:249:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:248:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:247:13-54
+activity#com.wind.emode.testcase.ProximitySensorSwitch
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:252:9-256:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:255:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:254:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:253:13-59
+activity#com.wind.emode.testcase.ProximitySensorStressTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:258:9-262:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:260:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:261:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:259:13-63
+activity#com.wind.emode.testcase.BackTouchPanelTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:263:9-267:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:265:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:266:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:264:13-56
+activity#com.wind.emode.testcase.MicRecStressTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:268:9-272:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:270:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:271:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:269:13-54
+activity#com.wind.emode.testcase.BatteryCheck
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:273:9-277:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:275:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:276:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:274:13-50
+activity#com.wind.emode.testcase.VibratorStressTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:278:9-282:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:280:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:281:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:279:13-56
+activity#com.wind.emode.MasterClean
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:283:9-287:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:286:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:285:13-59
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:284:13-40
+activity#com.wind.emode.testcase.VideoTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:288:9-292:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:291:13-50
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:290:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:289:13-47
+activity#com.wind.emode.testcase.FMTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:293:9-300:20
+	android:clearTaskOnLaunch
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:295:13-45
+	android:label
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:297:13-45
+	android:launchMode
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:298:13-44
+	android:configChanges
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:296:13-59
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:299:13-55
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:294:13-44
+service#com.mediatek.fmradio.FmRadioService
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:302:3-306:19
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:302:12-62
+intent-filter#com.mediatek.fmradio.IFmRadioService
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:303:13-305:29
+action#com.mediatek.fmradio.IFmRadioService
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:304:17-79
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:304:25-76
+activity#com.wind.emode.testcase.BatteryInfo
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:307:9-311:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:309:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:310:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:308:13-49
+activity#com.wind.emode.testcase.FrontCameraTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:312:9-316:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:314:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:315:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:313:13-53
+activity#com.wind.emode.testcase.BackCameraTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:317:9-321:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:319:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:320:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:318:13-52
+activity#com.wind.emode.testcase.SimState
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:322:9-326:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:324:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:325:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:323:13-46
+activity#com.wind.emode.testcase.TpFactoryTest
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:327:3-331:20
+	android:screenOrientation
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:329:13-49
+	android:theme
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:330:13-60
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:328:13-51
+service#com.wind.emode.EmodeIntentService
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:332:9-341:19
+	android:exported
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:334:13-37
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:333:13-61
+intent-filter#com.wind.intent.action.EMODE_OPEN_WIFI_BT_GPS+com.wind.intent.action.EMODE_RESTORE_BT+com.wind.intent.action.EMODE_RESTORE_GPS+com.wind.intent.action.EMODE_RESTORE_WIFI
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:335:13-340:29
+action#com.wind.intent.action.EMODE_RESTORE_WIFI
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:336:17-84
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:336:25-81
+action#com.wind.intent.action.EMODE_RESTORE_BT
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:337:17-82
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:337:25-79
+action#com.wind.intent.action.EMODE_RESTORE_GPS
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:338:17-83
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:338:25-80
+action#com.wind.intent.action.EMODE_OPEN_WIFI_BT_GPS
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:339:17-88
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:339:25-85
+service#com.wind.emode.EmptyForegroundService
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:342:9-345:19
+	android:exported
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:344:13-37
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:343:13-65
+provider#android.support.v4.content.FileProvider
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:346:9-354:14
+	android:authorities
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:348:7-49
+	android:grantUriPermissions
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:350:7-41
+	android:exported
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:349:7-31
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:347:7-61
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:351:7-353:48
+	android:resource
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:353:11-45
+	android:name
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:352:11-61
+uses-sdk
+ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:357:5-44
+	android:targetSdkVersion
+		INJECTED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml
+		INJECTED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml:357:15-41
+		INJECTED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml
+		INJECTED from F:\Emode\Emode_E165L\src\main\AndroidManifest.xml

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fengsong add for SML start -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout android:id="@+id/wind_sml_enabled_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:paddingTop="20dip"
+    >
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+		android:layout_marginTop="7dip"
+        >
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_weight="1"
+            android:text="@string/wind_sml_locked_num"
+			android:textSize="16sp"
+             />
+        <TextView android:id="@+id/wind_lock_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:textSize="22sp"
+			android:paddingLeft="5sp"
+            />
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+		android:layout_marginTop="7dip"
+        >
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:layout_weight="1"
+            android:text="@string/wind_sml_locked_detail"
+			android:textSize="16sp"
+			/>
+        <ListView android:id="@+id/wind_lock_list" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:paddingLeft="5sp" />
+    </LinearLayout>
+    
+</LinearLayout>
+<LinearLayout android:id="@+id/wind_sml_disabled_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="@string/wind_sml_disabled"
+		android:layout_marginTop="17dip"
+        />
+</LinearLayout>
+</FrameLayout>
+<!-- fengsong add for SML end -->
+<!-- From: file:/F:/Emode/Emode_E200L/src/main/res/layout/wind_sml_state.xml -->
